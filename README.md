@@ -25,7 +25,7 @@ Before running the project, ensure you have the necessary dependencies installed
 - Python 3.8+
 - Recommended: A virtual environment (e.g., `venv` or `conda`)
 
-#### **Setting up a virtual environment (Optional but recommended)**
+#### **Setting up a virtual environment**
 ```sh
 # Using conda
 conda create -n ccpredict python=3.8 -y
@@ -33,7 +33,7 @@ conda activate ccpredict
 
 pip install -r requirements.txt
 ```
-
+#### **Inference for the model**
 
 ```sh
 python predict.py --input data/sample_input.csv --decoder regression
