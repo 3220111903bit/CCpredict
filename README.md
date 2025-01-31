@@ -4,11 +4,11 @@
 ![GitHub Forks](https://img.shields.io/github/forks/3220111903bit/CCpredict?style=social)
 ![GitHub License](https://img.shields.io/github/license/3220111903bit/CCpredict)
 
-> **CCpredict is a predictive model designed for forecasting the Olympic Games' medal table.**
+> **CCpredict is a predictive model designed for forecasting the Olympic Games medal table.**
 
 ## 🎯 Overview
 
-CCpredict is a predictive model designed for forecasting the Olympic Games' medal table. This tool features two distinct decoder approaches: one is a regression-based decoder, and the other is an automatic decoder, each offering unique methodologies for prediction.
+CCpredict is a predictive model designed for forecasting the Olympic Games medal table. This tool features two distinct decoder approaches: one is a regression-based decoder, and the other is an automatic decoder, each offering unique methodologies for prediction.
 
 ### 🌟 CCpredicts
 
