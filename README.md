@@ -36,9 +36,9 @@ pip install -r requirements.txt
 #### **Inference for the model**
 
 ```sh
-python predict.py --input data/sample_input.csv --decoder regression
+python predict.py --input data/sample_input.csv --ccpredict regression
 
-python predict.py --input data/sample_input.csv --decoder automatic
+python predict.py --input data/sample_input.csv --ccpredict automatic
 
 ```
 
