@@ -12,8 +12,8 @@ CCpredict is a predictive model designed for forecasting the Olympic Games' meda
 
 ### 🌟 CCpredicts
 
-- ✅ CCpredict
-- ✅ CCpredict
+- ✅ CCpredict training section
+- ✅ CCpredict inference section
 
 ## 🏗️ Installation & Usage
 
