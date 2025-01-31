@@ -4,7 +4,7 @@
 ![GitHub Forks](https://img.shields.io/github/forks/3220111903bit/CCpredict?style=social)
 ![GitHub License](https://img.shields.io/github/license/3220111903bit/CCpredict)
 
-> **A brief description of the project and its main features.**
+> **CCpredict is a predictive model designed for forecasting the Olympic Games' medal table.**
 
 ## 🎯 Overview
 
