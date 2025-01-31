@@ -8,26 +8,36 @@
 
 ## 🎯 Overview
 
-CCpredict is a [brief description of what your project does]. This tool helps with [key functionality].  
+CCpredict is a predictive model designed for forecasting the Olympic Games' medal table. This tool features two distinct decoder approaches: one is a regression-based decoder, and the other is an automatic decoder, each offering unique methodologies for prediction.
 
-### 🌟 Features
+### 🌟 CCpredicts
 
-- ✅ Feature 1
-- ✅ Feature 2
-- ✅ Feature 3
-
-## 📸 Screenshots
-
-If applicable, add screenshots to demonstrate your project.
-
-![Sample Screenshot](https://via.placeholder.com/800x400?text=Project+Screenshot)
+- ✅ CCpredict
+- ✅ CCpredict
 
 ## 🏗️ Installation & Usage
 
-### 1️⃣ Install
+### 1️⃣ Environment Setup
 
+Before running the project, ensure you have the necessary dependencies installed.
+
+#### **Prerequisites**
+- Python 3.8+
+- Recommended: A virtual environment (e.g., `venv` or `conda`)
+
+#### **Setting up a virtual environment (Optional but recommended)**
 ```sh
-git clone https://github.com/3220111903bit/CCpredict.git
-cd CCpredict
-# Example for a Node.js project:
-npm install
+# Using conda
+conda create -n ccpredict python=3.8 -y
+conda activate ccpredict
+
+pip install -r requirements.txt
+
+python predict.py --input data/sample_input.csv --decoder regression
+
+python predict.py --input data/sample_input.csv --decoder automatic
+
+
+
+
+
