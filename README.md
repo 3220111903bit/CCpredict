@@ -32,12 +32,15 @@ conda create -n ccpredict python=3.8 -y
 conda activate ccpredict
 
 pip install -r requirements.txt
+```
 
+
+```sh
 python predict.py --input data/sample_input.csv --decoder regression
 
 python predict.py --input data/sample_input.csv --decoder automatic
 
-
+```
 
 
 
