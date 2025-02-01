@@ -23,6 +23,7 @@ Before running the project, ensure you have the necessary dependencies installed
 
 #### **Prerequisites**
 - Python 3.8+
+- Pytorch
 - Recommended: A virtual environment (e.g., `venv` or `conda`)
 
 #### **Setting up a virtual environment**
@@ -31,15 +32,17 @@ Before running the project, ensure you have the necessary dependencies installed
 conda create -n ccpredict python=3.8 -y
 conda activate ccpredict
 
-pip install -r requirements.txt
 ```
 #### **Inference for the model**
-
+##### **medal_v1**
 ```sh
-python predict.py --input data/sample_input.csv --ccpredict regression
+python medal.py #training and inference
+python fin_inference.py #final medal output
+```
 
-python predict.py --input data/sample_input.csv --ccpredict automatic
-
+##### **medal_v2**
+```sh
+python medal.py #training and fin medal table output
 ```
 
 
